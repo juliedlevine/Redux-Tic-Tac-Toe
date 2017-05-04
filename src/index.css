@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f2f1ef;
+}
+.header {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 64px;
+    text-align: center;
+    color: gray;
+    margin-top: 24px;
+}
+.container {
+    max-width: 612px;
+    margin: 30px auto;
+}
+.square {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 150px;
+    color: white;
+    height: 200px;
+    width: 200px;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: #ffa187;
+    float: left;
+}
+.square p {
+    font-size: 150px;
+    margin: 11px 49px;
+}
+.xhover:hover:after {
+    content: 'X';
+    margin: 11px 49px;
+}
+.ohover:hover:after {
+    content: 'O';
+    margin: 11px 49px;
+}
+.disabled {
+    pointer-events: none;
+}
+.winner-declaration {
+    color: gray;
+    text-align: center;
+    font-size: 20px
+}
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 49px;
+    font-size: 16px;
+    border: none;
+    background-color: #81e2b3;
+    color: white;
+    text-transform: uppercase;
+}
+button:hover {
+    background-color: #47cc8b;
+    cursor: pointer;
+}
+.score {
+    clear: both;
+    padding: 24px;
+}
+table {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+th, td, tr, tbody {
+    background-color: #47cc8b;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
